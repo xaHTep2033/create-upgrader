@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="create_upgrader"
+version="0.2.0"
+displayName="Create Upgrader"
+description="Portable item upgrader with a roulette GUI."
+[[dependencies.create_upgrader]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.233,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.create_upgrader]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
